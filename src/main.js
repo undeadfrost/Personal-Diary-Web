@@ -5,12 +5,15 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import 'element-ui/lib/theme-chalk/index.css'
-import { Row, Col } from 'element-ui'
+import { Row, Col, Form, Input, Button } from 'element-ui'
 
 Vue.config.productionTip = false
 Vue.prototype.$axios = axios
 Vue.use(Row)
 Vue.use(Col)
+Vue.use(Form)
+Vue.use(Input)
+Vue.use(Button)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
