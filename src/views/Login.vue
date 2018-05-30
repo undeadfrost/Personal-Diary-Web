@@ -10,10 +10,9 @@
 </template>
 
 <script>
-import ElFormItem from "../../node_modules/element-ui/packages/form/src/form-item.vue";
 
 export default {
-  components: {ElFormItem},
+  components: {},
   data () {},
   methods: {}
 }
